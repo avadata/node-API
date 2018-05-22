@@ -54,13 +54,14 @@
     "supertest": "^3.0.0"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "fs": "0.0.1-security",
     "hapi-auth-jwt": "^4.0.0",
-    "jsonwebtoken": "^7.2.1",
+    "jsonwebtoken": "^7.4.3",
     "lodash": "^4.17.5",
     "morgan": "^1.9.0",
     "path": "^0.12.7",

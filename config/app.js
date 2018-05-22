@@ -11,5 +11,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-export { app, corsOptions };
+// add the sercret key
+const SECRET_KEY = 'supersecret';
+export { app, corsOptions, SECRET_KEY };
 // module.exports = app;
